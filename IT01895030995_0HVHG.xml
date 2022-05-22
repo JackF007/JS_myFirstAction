@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><p:FatturaElettronica xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 fatturaordinaria_v1.2.xsd">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>01895030995</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>0HVHG</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>J6URRTW</CodiceDestinatario>
+			
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>12345678127</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>12345678127</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>GEA 2 s.r.l.</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Via T. Fusco</Indirizzo>
+				<NumeroCivico>18</NumeroCivico>
+				<CAP>88046</CAP>
+				<Comune>LAMEZIA TERME</Comune>
+				<Provincia>CZ</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>+39 0968 268</Telefono>
+				<Fax>+39 0968 268</Fax>
+				<Email>geadue@hotmail.it</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03084390792</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>SLLRNT51T10F839F</CodiceFiscale>
+				<Anagrafica>
+					<Nome>RENATO</Nome>
+					<Cognome>SOLLA</Cognome>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA TIMAVO ,35</Indirizzo>
+				<CAP>88046</CAP>
+				<Comune>LAMEZIA TERME</Comune>
+				<Provincia>CZ</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	<TerzoIntermediarioOSoggettoEmittente><DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>01895030995</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>CompEd Servizi SRL</Denominazione></Anagrafica></DatiAnagrafici></TerzoIntermediarioOSoggettoEmittente><SoggettoEmittente>TZ</SoggettoEmittente></FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2019-12-21</Data>
+				<Numero>1777</Numero>
+				<ImportoTotaleDocumento>30.71</ImportoTotaleDocumento>
+				<Causale>Fattura Vendita Accompagnatoria</Causale>
+				<Art73>SI</Art73>
+			</DatiGeneraliDocumento>
+			<DatiTrasporto>
+				<CausaleTrasporto>VENDITA</CausaleTrasporto>
+				<NumeroColli>2</NumeroColli>
+				<Descrizione>A VISTA</Descrizione>
+				<DataInizioTrasporto>2019-12-21</DataInizioTrasporto>
+			</DatiTrasporto>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>INTERNO</CodiceTipo>
+					<CodiceValore>8013170502498</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>PNP BUSTE TRASP. 40X60 PZ 100</Descrizione>
+				<Quantita>1.00000000</Quantita>
+				<UnitaMisura>PC</UnitaMisura>
+				<PrezzoUnitario>9.83610000</PrezzoUnitario>
+				<PrezzoTotale>9.84</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea>2</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>INTERNO</CodiceTipo>
+					<CodiceValore>15017</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>TOVAGLIETTE CARTAPAGLIA 30x40 500 PZ</Descrizione>
+				<Quantita>1.00000000</Quantita>
+				<UnitaMisura>PZ</UnitaMisura>
+				<PrezzoUnitario>6.96720000</PrezzoUnitario>
+				<PrezzoTotale>6.97</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea>3</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>INTERNO</CodiceTipo>
+					<CodiceValore>8014032035314</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>CAPRICE ORO TONDI  DIAM.30 PZ 2</Descrizione>
+				<Quantita>4.00000000</Quantita>
+				<UnitaMisura>PZ</UnitaMisura>
+				<PrezzoUnitario>1.06560000</PrezzoUnitario>
+				<PrezzoTotale>4.26</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DettaglioLinee>
+				<NumeroLinea>4</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>INTERNO</CodiceTipo>
+					<CodiceValore>8055329171339</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>BASTONCINI LEGNO GOLDEN HILL</Descrizione>
+				<Quantita>5.00000000</Quantita>
+				<UnitaMisura>PZ</UnitaMisura>
+				<PrezzoUnitario>0.81970000</PrezzoUnitario>
+				<PrezzoTotale>4.10</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>25.17</ImponibileImporto>
+				<Imposta>5.54</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP01</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2019-12-21</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2019-12-21</DataScadenzaPagamento>
+				<ImportoPagamento>30.71</ImportoPagamento>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
